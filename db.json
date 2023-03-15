@@ -5,9 +5,7 @@
       "title": "Mario",
       "image": "https://i.ytimg.com/vi/INk1W8OujQI/maxresdefault.jpg",
       "description": "Mario is an all-around fighter who uses his wide variety of techniques to respond to any situation. In Super Smash Bros. Ultimate, he shows up in his Wedding tux and his Builder outfit, and Cappy even makes an appearance!",
-      "createDate": "2018/06/18",
-      "platformId": [1, 6, 16],
-      "categoryId": [1, 6]
+      "createDate": "2018/06/18"
     }
   ],
   "categorys": [
@@ -27,14 +25,6 @@
       "slug": "platformer"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "comment": "Test comment on post #1",
-      "gameId": 1,
-      "user": 1
-    }
-  ],
   "platforms": [
     {
       "id": 1,
@@ -47,6 +37,28 @@
     {
       "id": 3,
       "name": "Xbox Series"
+    }
+  ],
+  "gamesCategorys": [
+    {
+      "id": 1,
+      "gameId": 1,
+      "categoryId": 1
+    }
+  ],
+  "gamesPlatforms": [
+    {
+      "id": 1,
+      "gameId": 1,
+      "platformId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "comment": "Test comment on post #1",
+      "gameId": 1,
+      "user": 1
     }
   ],
   "users": [
