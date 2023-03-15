@@ -8,7 +8,7 @@
       "createDate": "2018/06/18"
     }
   ],
-  "categorys": [
+  "cates": [
     {
       "id": 1,
       "name": "Shooter",
@@ -39,11 +39,11 @@
       "name": "Xbox Series"
     }
   ],
-  "gamesCategorys": [
+  "gamesCates": [
     {
       "id": 1,
       "gameId": 1,
-      "categoryId": 1
+      "cateId": 1
     }
   ],
   "gamesPlatforms": [
