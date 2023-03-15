@@ -1,16 +1,59 @@
 {
-  "posts":[
+  "games": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "title": "Mario",
+      "image": "https://i.ytimg.com/vi/INk1W8OujQI/maxresdefault.jpg",
+      "description": "Mario is an all-around fighter who uses his wide variety of techniques to respond to any situation. In Super Smash Bros. Ultimate, he shows up in his Wedding tux and his Builder outfit, and Cappy even makes an appearance!",
+      "createDate": "2018/06/18",
+      "platformId": [1, 6],
+      "categoryId": [1, 6]
     }
   ],
-  "comments" : [
+  "categorys": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "name": "Shooter",
+      "slug": "shooter"
+    },
+    {
+      "id": 2,
+      "name": "RPG",
+      "slug": "rpg"
+    },
+    {
+      "id": 3,
+      "name": "Platformer",
+      "slug": "platformer"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "comment": "Test comment on post #1",
+      "gameId": 1,
+      "user": 1
+    }
+  ],
+  "platforms": [
+    {
+      "id": 1,
+      "name": "Nintendo Switch"
+    },
+    {
+      "id": 2,
+      "name": "Playstation 5"
+    },
+    {
+      "id": 3,
+      "name": "Xbox Series"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Anakin",
+      "lastName": "Skywalker"
     }
   ]
 }
